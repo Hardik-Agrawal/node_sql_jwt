@@ -1,0 +1,28 @@
+{
+  "name": "node_sql_jwt",
+  "version": "1.0.0",
+  "description": "Login server side application using nodejs, MySQL and JWT",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hardik-Agrawal/node_sql_jwt.git"
+  },
+  "author": "Hardik Agrawal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hardik-Agrawal/node_sql_jwt/issues"
+  },
+  "homepage": "https://github.com/Hardik-Agrawal/node_sql_jwt#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
